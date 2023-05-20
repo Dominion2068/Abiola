@@ -77,7 +77,7 @@ On a personal level, this project serves as my personal commitment to giving bac
                     file_name="Proposal.pdf",
                     mime='application/octet-stream')
 
-            with open("Introduction.docx", "rb") as docx_file:
+            with open("Proposal.docx", "rb") as docx_file:
                 PDFbyte = docx_file.read()
 
                 st.download_button(label="Download Proposal in Word",
